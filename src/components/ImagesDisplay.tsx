@@ -14,7 +14,7 @@ const ImagesDisplay: React.FC<Props> = ({images}) => {
     const {scrollRef} = useSnapCarousel()
 
     return (
-    <div className="Card-thumnail-container"> 
+    <div className="Card-thumnail-box"> 
         {
             // TODO: Fix data bug
             // Data bug: Only new records have an array of thumbnails. 
